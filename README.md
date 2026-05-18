@@ -35,3 +35,20 @@ Flag format: NICCTF26{Aircraft_Name}
 For this challenge, I ran the image through Google Lens, and it recognized the aircraft as a Lockheed F-104 Starfighter.
 Flag: NICCTF26{F-104 Starfighter}
 
+4.The BULL (500 Points)
+Author: Sen0i
+
+Description
+The Bull of Dalal Street built castles of paper, soaring high before scandal toppled him. Now, leave the Bull aside and focus on the others: A quiet hand that pushed papers but pulled strings; A voice of law, fierce and unyielding, who stood in courts with fire; A shadow from his own bloodline, inheriting more than just the name; One partner’s path crossed darker trades, whispers of powder and night; Behind a borrowed name, a cluster of companies worked his will unseen.
+
+Take the first letter of each hidden figure’s name and combine them to form a meaningful word that is your flag.
+Example Format: NICCTF26{HELLO}
+
+Solution:
+1. A quiet hand that pushed papers but pulled strings 
+2. A voice of law, fierce and unyielding, who stood in courts with fire
+3. A shadow from his own bloodline, inheriting more than just the name
+4. One partner’s path crossed darker trades, whispers of powder and night
+5. Behind a borrowed name, a cluster of companies worked his will unseen.
+Flag: NICCTF26{BRAND}
+
