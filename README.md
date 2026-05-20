@@ -78,13 +78,11 @@ steganography tools: `zsteg` and `steghide`
 
 
 ### Description
-Ciphertext
-
-y4$sufo_ra_nb_GLK_GRVI_wd4iu_yfwwb_CW
+The note reads:"y4$sufo_ra_nb_GLK_GRVI_wd4iu_yfwwb_CW"
+flag format:NICCTF26{.......}
 
 Hint: e8 -2- zit
 Analysis
-
     Ciphertext preserves case, numbers, symbols, and underscores
     Indicates a classical substitution cipher
     Underscores suggest word boundaries
@@ -101,9 +99,7 @@ Applying Atbash to the ciphertext:
 y4$sufo_ra_nb_GLK_GRVI_wd4iu_yfwwb_CW =>
 b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD
 
-
-Flag
-NICCTF26{b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD}
+**Flag:`NICCTF26{b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD}`**
 
 
 
