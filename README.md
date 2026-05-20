@@ -77,7 +77,8 @@ steganography tools: `zsteg` and `steghide`
 **Flag:`NICCTF26{ECHO35_4R3_LOUDER_WH3N_PIX3LS_SPE4K}`**
 
 ## Crypto
- 1. e8 -2- zit (100 points)
+**1. e8 -2- zit (100 points)**
+**Author: John_x9**
  
 ### Description
 The note reads:"y4$sufo_ra_nb_GLK_GRVI_wd4iu_yfwwb_CW"
