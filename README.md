@@ -81,6 +81,8 @@ steganography tools: `zsteg` and `steghide`
 The note reads:"y4$sufo_ra_nb_GLK_GRVI_wd4iu_yfwwb_CW"
 flag format:NICCTF26{.......}
 
+ 1. e8 -2- zit (100 points)
+100 
 Hint: e8 -2- zit
 Analysis
     Ciphertext preserves case, numbers, symbols, and underscores
