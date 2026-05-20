@@ -75,3 +75,35 @@ steganography tools: `zsteg` and `steghide`
 **Extract the hidden file** containing the flag
 
 **Flag:`NICCTF26{ECHO35_4R3_LOUDER_WH3N_PIX3LS_SPE4K}`**
+
+
+### Description
+Ciphertext
+
+y4$sufo_ra_nb_GLK_GRVI_wd4iu_yfwwb_CW
+
+Hint: e8 -2- zit
+Analysis
+
+    Ciphertext preserves case, numbers, symbols, and underscores
+    Indicates a classical substitution cipher
+    Underscores suggest word boundaries
+    Multiple cipher attempts (Caesar, Vigenère with key zit, combinations) produced no readable output
+    Given the difficulty level, a simple classical cipher was likely
+
+### Solution:
+The correct cipher used is Atbash.
+Atbash substitution: a ↔ z b ↔ y c ↔ x … A ↔ Z B ↔ Y C ↔ X
+Non-alphabetic characters remain unchanged.
+Decryption
+Applying Atbash to the ciphertext:
+
+y4$sufo_ra_nb_GLK_GRVI_wd4iu_yfwwb_CW =>
+b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD
+
+
+Flag
+NICCTF26{b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD}
+
+
+
