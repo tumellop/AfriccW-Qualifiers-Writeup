@@ -139,3 +139,26 @@ Choice: Signature for 'flag': **`NICCTF26{r54_5ign47ur3_f0rg3ry}`**
 4) Exit
 
 Choice: $
+
+**3.Word on the StreetPoints: (200 Points)**
+**Author: John_x9**
+
+### Description
+"Follow the trail from the word everyone knows".
+
+### Solution:
+we are given a downloadable file named font.txt which contains the following ciphertext:55rhyykkqisq 4ubhYpYfwg 5pYrmmkks6qi prkuy6qlf eakjZjk4a rhXkgwy6iqhrddb   
+
+first glance, the text in font.txt looks like standard base-encoded or randomly generated ciphertext. However, the key lies in the challenge name ("Word on the Street") and the description ("the word everyone knows").  This is a massive hint pointing toward Microsoft Word and its infamous symbol fonts—specifically the Wingdings family. The file name font.txt further confirms that the cipher relies on a specific font mapping rather than mathematical cryptography.The SolutionStep 1: Font Substitution (Wingdings 3)If you paste the ciphertext into Microsoft Word and change the font to Wingdings 3, the seemingly random alphanumeric characters transform into a series of directional arrows.By mapping the standard keyboard characters to their Wingdings 3 arrow equivalents, we get the following directional groups:UP arrows: X, Y, h, p, r, 
+5DOWN arrows: i, q, s, 6, 
+0LEFT arrows: Z, b, d, f, t, 
+vRIGHT arrows: a, c, e, g, u, w, 
+4Diagonal arrows: j, z (UP-LEFT), 
+k (UP-RIGHT), l, x (DOWN-LEFT), 
+m, 
+y (DOWN-RIGHT)
+Step 2: "Follow the Trail"The prompt explicitly tells us to "follow the trail." 
+If we treat the sequence of arrows in each block of text as literal pen strokes on a piece of paper, they trace out uppercase English letters.Here is the stroke-by-stroke breakdown of the six words provided in font.txt:  55rhyykkqisq   Strokes: 4 UPs, 2 DOWN-RIGHTs, 2 UP-RIGHTs, 4 DOWNsLetter Traced: M4ubhYpYfwg   Strokes: 2 RIGHTs, 1 LEFT, 4 UPs, 1 LEFT, 2 RIGHTsLetter Traced: I5pYrmmkks6qi   Strokes: 4 UPs, 2 DOWN-RIGHTs, 2 UP-RIGHTs, 4 DOWNsLetter Traced: Mprkuy6qlf   Strokes: 2 UPs, 1 UP-RIGHT, 1 RIGHT, 1 DOWN-RIGHT, 2 DOWNs, 1 DOWN-LEFT, 1 LEFTLetter Traced: OeakjZjk4a   Strokes: 2 RIGHTs, 1 UP-RIGHT, 1 UP-LEFT, 1 LEFT, 1 UP-LEFT, 1 UP-RIGHT, 2 RIGHTsLetter Traced: SrhXkgwy6iqhrddb   Strokes: 3 UPs, 1 UP-RIGHT, 2 RIGHTs, 1 DOWN-RIGHT, 3 DOWNs, 2 UPs, 3 LEFTsLetter Traced: AStep 3: 
+Flag Capture
+Putting the drawn letters together sequentially spells out the word MIMOSA. 
+Flag: **`NICCTF26{MIMOSA}`**
