@@ -105,6 +105,21 @@ b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD
 **Flag:`NICCTF26{b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD}`**
 
 
+**2.RSA Signer(500 Points)**
+**Author:John_x9**
+
+
+### Description
+We built a secure RSA signing service for our internal infrastructure.
+Users can request signatures for arbitrary messages and verify them using the public key.
+However, the system refuses to sign the message "flag" for security reasons.
+Can you still obtain a valid signature for "flag" and retrieve the secret?
+Connect to the service:
+nc 72.61.200.187 9001
+Flag format: NICCTF26{...}
+
+
+### Solution:
 ┌──(prxncess㉿kali)-[~]
 └─$ python3 mmm.py      
 [+] Opening connection to 72.61.200.187 on port 9001: Done
@@ -116,7 +131,7 @@ b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD
 3) Get flag
 4) Exit
 
-Choice: Signature for 'flag': NICCTF26{r54_5ign47ur3_f0rg3ry}
+Choice: Signature for 'flag': **`NICCTF26{r54_5ign47ur3_f0rg3ry}`**
 
 1) Sign message
 2) Verify signature
