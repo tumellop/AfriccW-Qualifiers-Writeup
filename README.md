@@ -105,4 +105,22 @@ b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD
 **Flag:`NICCTF26{b4$hful_iz_my_TOP_TIER_dw4rf_buddy_XD}`**
 
 
+┌──(prxncess㉿kali)-[~]
+└─$ python3 mmm.py      
+[+] Opening connection to 72.61.200.187 on port 9001: Done
+[+] Real signature for 'flag': 72768732610731443253997835232486311997461037971905257281367513154826881488839904379912541101845370769252076133024754952151849588506907882923076189458378208516972351789372801346846514054815961498214963223544796849292979638162707611991447432775240150212211096052760964916397010038449025891335463193721736600426
+[*] Switching to interactive mode
 
+1) Sign message
+2) Verify signature
+3) Get flag
+4) Exit
+
+Choice: Signature for 'flag': NICCTF26{r54_5ign47ur3_f0rg3ry}
+
+1) Sign message
+2) Verify signature
+3) Get flag
+4) Exit
+
+Choice: $
